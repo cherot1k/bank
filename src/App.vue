@@ -12,7 +12,8 @@
 import HelloWorld from './components/HelloWorld';
 import Navbar from  './components/Navbar_Sidebar';
 import Footer from './components/Footer';
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/auth'
 export default {
   name: 'App',
   components: {

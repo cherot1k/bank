@@ -32,7 +32,10 @@
 </template>
 
 <script>
+    import init from "@/firebase/init"
+    init()
     import firebase from 'firebase/app'
+    import 'firebase/firestore'
     let db = firebase.firestore()
 
     export default {

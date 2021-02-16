@@ -1,4 +1,4 @@
-# bank
+# Finance Helper
 Finance helper using Vue.js and firebase
 
 To run the project you should use command
